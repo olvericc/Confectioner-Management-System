@@ -31,3 +31,16 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Docker ###
+backend/docker/.data/
+backend/docker/*.conf
+backend/docker/*.pid
+backend/docker/*.opts
+backend/docker/*.auto.conf
+backend/docker/*.conf
+backend/docker/pg_wal/
+backend/docker/pg_xact/
+backend/docker/pg_stat_tmp/
+backend/docker/*.stat
+backend/docker/postmaster.pid
